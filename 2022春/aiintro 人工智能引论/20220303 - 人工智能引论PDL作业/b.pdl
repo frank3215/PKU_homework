@@ -1,0 +1,14 @@
+#input
+	x of int in [1,8];
+	y of int in [1,8];
+
+#required
+	a of (int in [1,8])[0~7];
+	alldiff a;
+	a[0] = x;
+	a[1] = y;
+	i-a[i] != j-a[j] : forall (i,j) (i != j);
+	i+a[i] != j+a[j] : forall (i,j) (i != j);
+
+#output
+	a;
