@@ -3,3 +3,6 @@
 **/*.out
 **/.DS_STORE
 **/*.ans
+**/input
+**/output
+**/tmp
